@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #4A9AF9;
+}
+
+.welcome {
+	height: 100vh;
+	width: 100vw;
+	background-image: url('./images/background.png');
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	-webkit-box-shadow: 0px 18px 40px -1px rgba(0,0,0,0.41);
+	-moz-box-shadow: 0px 18px 40px -1px rgba(0,0,0,0.41);
+	box-shadow: 0px 18px 40px -1px rgba(0,0,0,0.41);
+}
+
+.barra{
+    height: 5%;
+    width: 100%;
+}
+
+.Logo{
+    width: 10%;
+    height: 10%;
+}
+
+.Indice{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.Cabecalho{
+	position: fixed;
+	top: 0;
+	left: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+	background-color: white;
+	padding: 20px;
+	font-weight: 600;
+	width: 100vw;
+	opacity: .95;
+	z-index: 2;
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #282828;
+    cursor: pointer;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.btn:hover {
+	color: #4A9AF9;
+}
+
+.Logotipo{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+	width: 20vw;
+    transform: translate(-50%,-50%);
+}
+
+.Slogan{
+    font-size: 25px;
+    color: white;
+	position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Scroll{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white
+}
+
+.sobre-nos {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+  	justify-content: center;
+	top: 100%;
+	height: 100vh;
+	width: 100vw;
+	padding-top: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.sobre-title{
+	color:white;
+	font-size:35px;
+}
+
+p {
+	color:white;
+}
+
+.sobre-content {
+	margin-top: 3%;
+	width: 50vw;
+	line-height: 2;
+}
+
+.contactos {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+  	justify-content: center;
+	top: 300%;
+	height: 100vh;
+	width: 100vw;
+	padding-top: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.projetos {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+  	justify-content: center;
+	top: 200%;
+	height: 100vh;
+	width: 100vw;
+	padding-top: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.contactos-title{
+	color:white;
+	font-size:35px;
+}
+
+.contactos-content {
+	margin-top: 3%;
+	width: 50vw;
+	line-height: 2;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+.contacto {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+	transition: opacity 0.7s 0s ease-in-out;
+}
+
+.contacto:hover {
+	opacity: .5
+}
+
+.saber-mais {
+	background-color: #ffffff;
+	color: #4A9AF9;
+	font-weight: 500;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 5%;
+	width: 150px;
+	text-align: center;
+}
